@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-data
+data:
+  simple.conf: |
+   log_type all
